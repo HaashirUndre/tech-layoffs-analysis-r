@@ -30,7 +30,7 @@ Overall patterns in the technology employment market
 ---
 
 ## Key Findings
-1. AI Adoption vs AI Replacement Risk
+### 1. AI Adoption vs AI Replacement Risk
 
 The analysis found a positive relationship between AI adoption and AI replacement risk.
 
@@ -45,9 +45,9 @@ In simple terms, companies with higher reported levels of AI adoption also tende
 " Correlation does not necessarily mean that AI adoption directly causes job replacement. It only indicates an association within this dataset."
 
 Visualization
-ai_adoption_vs_replacement_risk.png
+![AI Adoption vs Replacement Risk](ai_adoption_vs_replacement_risk.png)
 
-2. Layoffs vs Open Roles
+### 2. Layoffs vs Open Roles
 
 The analysis found a negative relationship between layoffs and open roles.
 
@@ -60,9 +60,9 @@ This suggests that records with higher numbers of layoffs generally tended to ha
 However, the relationship is relatively weak compared with the AI adoption/replacement-risk relationship, meaning other factors are likely influencing hiring activity.
 
 Visualization
-layoffs_vs_open_roles.png
+![Layoffs vs Open Roles](layoffs_vs_open_roles.png)
 
-3. Layoffs by Hiring Trend
+### 3. Layoffs by Hiring Trend
 
 Average layoffs varied considerably across different hiring trends.
 
@@ -77,27 +77,27 @@ The Downsizing category had the highest average layoffs per record, while Aggres
 This highlights a clear difference between companies reducing their workforce and companies actively expanding their workforce.
 
 Visualization
-layoffs_by_hiring_trend.png
+![Layoffs by Hiring Trend](layoffs_by_hiring_trend.png)
 
-4. Layoffs by Industry
+### 4. Layoffs by Industry
 
 The analysis compared total layoffs across seven technology-related industries.
 
 Industry	Total Layoffs
-Social Media	9,012,817
-AI	8,751,526
-E-Commerce	8,618,351
-Cybersecurity	8,569,627
-Gaming	8,552,964
-FinTech	8,406,741
-Cloud	8,202,839
+Social Media-9,012,817
+AI-8,751,526
+E-Commerce-8,618,351
+Cybersecurity-8,569,627
+Gaming-8,552,964
+FinTech-8,406,741
+Cloud-8,202,839
 
 Based on the dataset, Social Media recorded the highest total layoffs, while Cloud recorded the lowest among the industries analyzed.
 
 The differences are relatively close, suggesting that layoffs were widespread across the industries represented in the dataset.
 
 Visualization
-layoffs_by_industry.png
+![Layoffs by Industry](layoffs_by_industry.png)
 
 ---
  
@@ -128,18 +128,18 @@ These findings provide a snapshot of how workforce reductions, hiring activity, 
 
 ---
 
-## 📊 Visualizations
+## Visualizations
 AI Adoption vs AI Replacement Risk
-ai_adoption_vs_replacement_risk.png
+![AI Adoption vs Replacement Risk](ai_adoption_vs_replacement_risk.png)
 
 Layoffs vs Open Roles
-layoffs_vs_open_roles.png
+![Layoffs vs Open Roles](layoffs_vs_open_roles.png)
 
 Average Layoffs by Hiring Trend
-layoffs_by_hiring_trend.png
+![Layoffs by Hiring Trend](layoffs_by_hiring_trend.png)
 
 Tech Layoffs by Industry
-layoffs_by_industry.png
+![Layoffs by Industry](layoffs_by_industry.png)
 
 ---
 
@@ -203,6 +203,5 @@ In particular, correlation between variables does not establish causation.
 ---
 
 ## Author
-
-Haashir Undre
+Haashir Undre,
 This project was created as part of my learning journey in R, data analysis, and data visualization.
